@@ -1,0 +1,15 @@
+{
+  "name": "md-todo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"python app.py\" \"vite\"",
+    "build": "vite build",
+    "start": "python app.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.7"
+  }
+}
